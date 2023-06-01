@@ -1,0 +1,11 @@
+:root{
+    --cor-de-fundo: rgb(197, 43, 43); 
+}
+body{
+    background-color: rgb(161, 31, 31);
+
+}
+h1{
+    background-color: rgb(153, 12, 12);
+    text-align: center;
+}
