@@ -5,7 +5,27 @@ body{
     background-color: rgb(161, 31, 31);
 
 }
-h1{
-    background-color: rgb(153, 12, 12);
-    text-align: center;
+.cabecalho_menu-hamburguer { 
+width: 24px;
+height: 24px;
+background-image: url(./img/menu.svg) ;
+background-repeat: no-repeat;
+background-position: center;
+display: inline-block;
 }
+ .cabecalho {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: relative;
+ }
+ .conteiner{ 
+display: flex;
+ align-items: center;
+ } 
+.container_imagem{  
+padding: 1em;
+margin: 1em;
+width: 5em;
+ }
