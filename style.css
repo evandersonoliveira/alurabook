@@ -1,10 +1,12 @@
 :root{
     --cor-de-fundo: rgb(197, 43, 43); 
 }
+
 body{
     background-color: rgb(161, 31, 31);
 
 }
+
 .cabecalho_menu-hamburguer { 
 width: 24px;
 height: 24px;
@@ -13,6 +15,7 @@ background-repeat: no-repeat;
 background-position: center;
 display: inline-block;
 }
+
  .cabecalho {
     background-color: aliceblue;
     display: flex;
@@ -20,12 +23,30 @@ display: inline-block;
     align-items: center; 
     position: relative;
  }
+
  .conteiner{ 
 display: flex;
  align-items: center;
  } 
+
 .container_imagem{  
 padding: 1em;
 margin: 1em;
 width: 5em;
- }
+} 
+.container_botao{
+    display: none;
+}
+.lita-menu{
+    display: none;
+}
+.banner{
+    background-color: aliceblue;
+    color: aqua; 
+    text-align: center;
+    font-size: 30px;
+}
+.banner-titulo{
+    font-size: 30px;
+    font-weight: 700;
+}
