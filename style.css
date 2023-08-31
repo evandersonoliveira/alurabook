@@ -1,7 +1,7 @@
 :root{
-    --cor-de-fundo:#EBECEE;
+    --cor-de-fundo:#ffffff;
     --branco: #FFFFFF;
-    --laranja: #EB9B00;
+    --laranja: #00eb14;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
 }
@@ -27,7 +27,7 @@ body{
 
 
 .cabeçalho {
-        background-color: #FFFFFF;
+        background-color: #000000;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -89,8 +89,8 @@ body{
 }
 
 .banner{
-    background-color: #002F52;
-    color: #EBECEE;
+    background-color: #000000;
+    color: #3cff00;
     text-align: center;
   
 }
@@ -131,14 +131,12 @@ body{
         font-weight: 700;
         padding: 1em 0 0.5em 0;
         }
-.swiper-slide img {
-            width: 100%;
-            }        
 
-.swiper-pagination {
-    position:initial;
-    margin: 23em 0;
-    }
-.swiper-slide img{
-    width: 30;
-}
+        
+        .botoes-ancora{
+            background-color: #002F52;
+            padding: 1em 1em; 
+            color: aqua;
+            font-weight: 700;
+            text-decoration: none;
+        }
